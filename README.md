@@ -2,10 +2,10 @@
 
 ## v0.1
 
-### 
+### Download
 
 ``` 
-	
+pip install XToolsLib
 ``` 
 
 ### Fake Mail
