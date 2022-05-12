@@ -2,9 +2,9 @@
 
 ## v0.1
 
-### Download
+### Installation
 
-``` python
+``` 
 pip install XToolsLib
 ``` 
 
