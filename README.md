@@ -8,7 +8,7 @@
 pip install XToolsLib
 ``` 
 
-### Fake Mail
+### Create Fake Mail
 
 ``` python
 import XToolsLib, time
