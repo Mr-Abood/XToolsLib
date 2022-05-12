@@ -4,7 +4,7 @@
 
 ### Download
 
-``` 
+``` python
 pip install XToolsLib
 ``` 
 
