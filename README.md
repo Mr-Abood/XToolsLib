@@ -3,7 +3,97 @@
 <a href="https://t.me/O0OO2"><img title="Telegram" src="https://img.shields.io/badge/telegram%20-X | Tools-red.svg?style=for-the-badge&logo=telegram"></a>
 ## v0.1
 
-## Check Mail.ru Email
+## Installation
+
+``` 
+pip install XToolsLib
+``` 
+
+### Check Yahoo Email
+
+``` python
+import XToolsLib as XT
+
+email = ""
+
+#proxy = "IP:PORT"
+#type = "http" or "https" or "socks4" or "socks5"
+proxy = None
+type = None
+
+timeout = 10
+
+Check = XT.MailChecker().Yahoo(email, proxy, type, timeout)
+if Check:
+	print("Available")
+else:
+	print("Unavailable")
+``` 
+
+### Check Outlook Email
+
+``` python
+import XToolsLib as XT
+
+email = ""
+
+#proxy = "IP:PORT"
+#type = "http" or "https" or "socks4" or "socks5"
+proxy = None
+type = None
+
+timeout = 10
+
+Check = XT.MailChecker().Outlook(email, proxy, type, timeout)
+if Check:
+	print("Available")
+else:
+	print("Unavailable")
+``` 
+
+### Check Hotmail Email
+
+``` python
+import XToolsLib as XT
+
+email = ""
+
+#proxy = "IP:PORT"
+#type = "http" or "https" or "socks4" or "socks5"
+proxy = None
+type = None
+
+timeout = 10
+
+Check = XT.MailChecker().Hotmail(email, proxy, type, timeout)
+if Check:
+	print("Available")
+else:
+	print("Unavailable")
+``` 
+
+### Check Gmail Email
+
+``` python
+import XToolsLib as XT
+
+email = ""
+
+#proxy = "IP:PORT"
+#type = "http" or "https" or "socks4" or "socks5"
+proxy = None
+type = None
+
+timeout = 10
+
+Check = XT.MailChecker().Gmail(email, proxy, type, timeout)
+if Check:
+	print("Available")
+else:
+	print("Unavailable")
+``` 
+
+### Check Mail.ru Email
 
 ``` python
 import XToolsLib as XT
@@ -22,12 +112,27 @@ if Check:
 	print("Available")
 else:
 	print("Unavailable")
-``` 
+```
 
-## Installation
+### Check Aol Email
 
-``` 
-pip install XToolsLib
+``` python
+import XToolsLib as XT
+
+email = ""
+
+#proxy = "IP:PORT"
+#type = "http" or "https" or "socks4" or "socks5"
+proxy = None
+type = None
+
+timeout = 10
+
+Check = XT.MailChecker().Aol(email, proxy, type, timeout)
+if Check:
+	print("Available")
+else:
+	print("Unavailable")
 ``` 
 
 ### Create Fake Mail
