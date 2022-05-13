@@ -3,6 +3,27 @@
 <a href="https://t.me/O0OO2"><img title="Telegram" src="https://img.shields.io/badge/telegram%20-X | Tools-red.svg?style=for-the-badge&logo=telegram"></a>
 ## v0.1
 
+## Check Mail.ru Email
+
+``` python
+import XToolsLib as XT
+
+email = ""
+
+#proxy = "IP:PORT"
+#type = "http" or "https" or "socks4" or "socks5"
+proxy = None
+type = None
+
+timeout = 10
+
+Check = XT.MailChecker().Mailru(email, proxy, type, timeout)
+if Check:
+	print("Available")
+else:
+	print("Unavailable")
+``` 
+
 ## Installation
 
 ``` 
